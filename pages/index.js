@@ -17,7 +17,7 @@ async function fetcher(...arg) {
 }
 
 export default function Home() {
-  const { data } = useSWR("/api/github?username=spences10", fetcher);
+  const { data } = useSWR("/api/github?username=fu4303", fetcher);
 
   return (
     <div>
